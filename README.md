@@ -19,3 +19,10 @@ change `30` to desire hdmi port
 ```
 echo 'tx ff:82:30:00' | cec-client -s RPI
 ```
+
+## change input
+List connected devices
+
+```
+echo 'scan' | cec-client -s -d 1
+```
